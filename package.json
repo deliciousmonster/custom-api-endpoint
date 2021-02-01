@@ -1,0 +1,27 @@
+{
+  "name": "harperdb-fastify-demo",
+  "version": "1.0.0",
+  "description": "Demo application for HarperDB livestream event: Build a REST API with Fastify & HarperDB",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node -r dotenv/config src"
+  },
+  "keywords": [
+    "nodejs",
+    "harperdb",
+    "fastify",
+    "undici"
+  ],
+  "author": "Ethan Arrowood <ethan@arrowood.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.9.2",
+    "fastify-autoload": "^3.4.0",
+    "fastify-plugin": "^3.0.0",
+    "fluent-json-schema": "^2.0.3",
+    "standard": "^16.0.3",
+    "undici": "^3.1.0"
+  }
+}
